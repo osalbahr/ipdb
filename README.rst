@@ -168,31 +168,6 @@ and run `coverage run setup.py test`.
 Third-party support
 -------------------
 
-Products.PDBDebugMode
-+++++++++++++++++++++
-
-Zope2 Products.PDBDebugMode_ uses ``ipdb``, if available, in place of ``pdb``.
-
-.. _Products.PDBDebugMode: http://pypi.python.org/pypi/Products.PDBDebugMode
-
-iw.debug
-++++++++
-
-iw.debug_ allows you to trigger an ``ipdb`` debugger on any published object
-of a Zope2 application.
-
-.. _iw.debug: http://pypi.python.org/pypi/iw.debug
-
-ipdbplugin
-++++++++++
-
-ipdbplugin_ is a nose_ test runner plugin that also uses the IPython debugger
-instead of ``pdb``. (It does not depend on ``ipdb`` anymore).
-
-.. _ipdbplugin: http://pypi.python.org/pypi/ipdbplugin
-.. _nose: http://readthedocs.org/docs/nose
-
-
 pytest
 +++++++
 pytest_ supports a ``--pdb`` option which can run ``ipdb`` /
